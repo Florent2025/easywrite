@@ -1,10 +1,10 @@
 <div align="center">
 
-# VeriScribe · 真章
+# Easywrite
 
 **The academic-writing skill that makes AI-assisted papers read *human* while staying *evidence-true* — in English and 中文.**
 
-*让 AI 辅助的论文既有人味、又守得住真章：去 AI 味 + 守证据 + 降 AIGC 检出率，中英双语。*
+*让 AI 辅助的学术写作既有人味、又守得住证据：去 AI 味 + 守证据 + 降 AIGC 检出率，中英双语。*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/type-agent%20skill-6e56cf.svg)](SKILL.md)
@@ -21,7 +21,7 @@ A general "humanizer" strips AI tells but has no idea that *your p-value is load
 fixes structure but doesn't know why clean prose still trips GPTZero. And neither one handles 中文 AI 腔. Research
 writing needs all three at once, plus a hard rule that **nothing gets less true in the name of sounding human**.
 
-VeriScribe is that skill. It routes between five strengths and adds a bilingual + integrity spine:
+Easywrite is that skill. It routes between five strengths and adds a bilingual + integrity spine:
 
 - 🧬 **Claim ↔ evidence discipline** — no verb stronger than its data; every claim earns its number, figure, or citation. Papers, rebuttals, and grants each get the right register (grants keep their vision; papers get the strict trim).
 - 🔬 **Detector science, done right** — perplexity / burstiness / stylometry. It *cuts* instead of "polishing" (polishing raises the AI score), and it tells ESL and technical writers the truth: a high score is often the detector's bias, not their writing.
@@ -29,7 +29,7 @@ VeriScribe is that skill. It routes between five strengths and adds a bilingual 
 - 🎯 **Voice & venue matching** — matches your own writing sample and the target venue (NeurIPS terse vs. Nature expository vs. NSFC 规范).
 - 🔒 **Integrity firewall** — never alters a number, result, or citation; never fabricates a source; not a tool for evading AI-use disclosure.
 
-> **真章** means "the genuine article / the real substance," punning on 章 (a piece of writing). That's the whole thesis: *human in voice, true in substance.*
+> The whole thesis in one line: **human in voice, true in substance** — writing that is easy to read and easy to trust.
 
 ## What it does (at a glance)
 
@@ -61,20 +61,20 @@ Once installed, just ask in natural language — the skill auto-triggers:
 
 **Option A — Skills CLI (any agent):**
 ```bash
-npx skills add YOUR_GH_USERNAME/veriscribe
+npx skills add Florent2025/easywrite
 ```
 
 **Option B — Claude Code plugin marketplace:**
 ```bash
-/plugin marketplace add YOUR_GH_USERNAME/veriscribe
-/plugin install veriscribe
+/plugin marketplace add Florent2025/easywrite
+/plugin install easywrite
 ```
 
 **Option C — Manual (Claude Code / Codex / Cursor / OpenCode):**
 ```bash
 # Claude Code (user-global):
-git clone https://github.com/YOUR_GH_USERNAME/veriscribe.git ~/.claude/skills/veriscribe
-# Codex:  ~/.codex/skills/veriscribe    Cursor: .cursor/skills/veriscribe    OpenCode: ~/.config/opencode/skills/veriscribe
+git clone https://github.com/Florent2025/easywrite.git ~/.claude/skills/easywrite
+# Codex:  ~/.codex/skills/easywrite    Cursor: .cursor/skills/easywrite    OpenCode: ~/.config/opencode/skills/easywrite
 ```
 
 **Option D — No automation:** paste [`SKILL.md`](SKILL.md) into the conversation. It runs standalone; full power is `SKILL.md` + `references/`.
@@ -84,7 +84,7 @@ See [`install/`](install/) for per-tool notes.
 ## Repository layout
 
 ```
-veriscribe/
+easywrite/
 ├── SKILL.md                        # core router + 8-step workflow + IRON RULES
 ├── references/
 │   ├── ai-tells-english.md         # 33 patterns + 2026 vocab clusters + false-positive guards
@@ -108,10 +108,10 @@ veriscribe/
 
 ## Credits & attribution
 
-VeriScribe stands on the shoulders of five excellent MIT-licensed skills. It does not replace them — it routes
+Easywrite stands on the shoulders of five excellent MIT-licensed skills. It does not replace them — it routes
 between their strengths and adds the bilingual + integrity spine. Please star the originals:
 
-| Source | Author | What VeriScribe took |
+| Source | Author | What Easywrite took |
 |--------|--------|----------------------|
 | [humanizer](https://github.com/blader/humanizer) | [@blader](https://github.com/blader) | The 33-pattern English AI-tell catalog, voice calibration, false-positive guards |
 | [academic-humanizer](https://github.com/AIScientists-Dev/academic-humanizer) | AIScientists-Dev | Claim↔evidence discipline, over-claim verbs, venue & NSF/NIH grant modes |
@@ -120,12 +120,12 @@ between their strengths and adds the bilingual + integrity spine. Please star th
 | [shuorenhua 说人话](https://github.com/MrGeDiao/shuorenhua) | [@MrGeDiao](https://github.com/MrGeDiao) | The entire 中文 去 AI 味 engine: scene/tier/scope, protected spans, 无源引用三模式 |
 
 Adjacent and complementary: [nuwa-skill 女娲](https://github.com/alchaincyf/nuwa-skill) (distills a thinker's voice
-you can then feed to VeriScribe's voice-match step) and [taste-skill](https://github.com/leonxlnx/taste-skill)
+you can then feed to Easywrite's voice-match step) and [taste-skill](https://github.com/leonxlnx/taste-skill)
 (frontend/UI, not prose).
 
 ## License
 
-[MIT](LICENSE). If you build on VeriScribe, keep the attribution chain intact — credit the five sources above, as this repo does.
+[MIT](LICENSE). If you build on Easywrite, keep the attribution chain intact — credit the five sources above, as this repo does.
 
 ## Contributing
 

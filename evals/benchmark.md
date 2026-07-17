@@ -1,4 +1,4 @@
-# VeriScribe Smoke-Test Benchmark
+# Easywrite Smoke-Test Benchmark
 
 Small, hand-checkable cases to sanity-check a change to the skill. Each case = input + what a correct pass must do
 (should-fix) and must NOT do (false-positive / fidelity guard). Not a detector score suite — those swing ±10–20 pts.

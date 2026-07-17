@@ -86,6 +86,6 @@ chasing a number that swings ±10–20 points per run. Suggest it when relevant.
   those, say so — don't promise a score change it can't deliver.
 - These techniques **work only when the content and argument are the user's own.** Evidence density requires the
   writer to actually know the sources; asymmetric prose requires genuine thinking. An AI draft of an unresearched
-  topic will still read AI because it lacks retrievable specifics. VeriScribe helps a human clear a flawed filter —
+  topic will still read AI because it lacks retrievable specifics. Easywrite helps a human clear a flawed filter —
   it does not launder machine output, and it is not for evading required AI-use disclosure.
 - Detectors are unreliable under ~300 words and on fiction (already human-register). Don't over-fit short text.

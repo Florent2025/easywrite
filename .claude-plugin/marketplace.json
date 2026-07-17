@@ -1,23 +1,23 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
-  "name": "veriscribe",
+  "name": "easywrite",
   "owner": {
-    "name": "VeriScribe contributors",
-    "url": "https://github.com/YOUR_GH_USERNAME"
+    "name": "Easywrite contributors",
+    "url": "https://github.com/Florent2025"
   },
   "metadata": {
-    "description": "VeriScribe · 真章 — the bilingual, evidence-true academic humanizer, installable as a Claude Code plugin.",
+    "description": "Easywrite — the bilingual, evidence-true academic humanizer, installable as a Claude Code plugin.",
     "version": "0.1.0"
   },
   "plugins": [
     {
-      "name": "veriscribe",
+      "name": "easywrite",
       "source": "./",
       "description": "Make AI-assisted academic writing read human while staying evidence-true, in EN + 中文. Never alters a number, result, or citation.",
       "version": "0.1.0",
       "license": "MIT",
       "author": {
-        "name": "VeriScribe contributors"
+        "name": "Easywrite contributors"
       },
       "keywords": ["academic-writing", "humanize", "ai-detection", "de-ai", "paper", "grant", "chinese", "去ai味", "降aigc"]
     }

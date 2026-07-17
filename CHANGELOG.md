@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to VeriScribe are documented here. Format loosely follows
+All notable changes to Easywrite are documented here. Format loosely follows
 [Keep a Changelog](https://keepachangelog.com/); versions use [SemVer](https://semver.org/).
 
 ## [0.1.0] — 2026-07-17

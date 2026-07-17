@@ -1,5 +1,5 @@
-VeriScribe · 真章
-Copyright (c) 2026 VeriScribe contributors
+Easywrite
+Copyright (c) 2026 Easywrite contributors
 
 This product synthesizes concepts and, in places, condensed rule sets adapted from the
 following MIT-licensed open-source skills. Their original copyright and permission notices
@@ -30,5 +30,5 @@ Adjacent projects referenced but not derived from:
    - taste-skill — https://github.com/leonxlnx/taste-skill (MIT)
 
 Each upstream project retains its own copyright. Nothing here revokes or supersedes the
-rights of the original authors. If you redistribute VeriScribe, retain this NOTICE and the
+rights of the original authors. If you redistribute Easywrite, retain this NOTICE and the
 attribution table in README.md.

@@ -1,5 +1,5 @@
 ---
-name: veriscribe
+name: easywrite
 description: >
   Make AI-assisted academic and research writing read as human-authored while staying
   evidence-true, in English and 中文. Use for papers, theses, abstracts, related work,
@@ -23,19 +23,19 @@ allowed-tools:
   - AskUserQuestion
 ---
 
-# VeriScribe · 真章
+# Easywrite
 
 Turn AI-assisted scholarly writing back into *a specific researcher making a precise,
 evidence-anchored argument* — not *a model performing "good academic writing."*
 
-VeriScribe unifies five things a single humanizer usually misses: (1) the **claim↔evidence
+Easywrite unifies five things a single humanizer usually misses: (1) the **claim↔evidence
 discipline** scholarship requires, (2) the **detector science** (perplexity / burstiness /
 stylometry) that decides whether clean prose gets falsely flagged, (3) a **bilingual EN + 中文**
 AI-tell catalog, (4) **voice and venue** matching, and (5) an **integrity firewall** so nothing
 becomes less true in the name of sounding human.
 
-> 真章 = "the genuine article / the real substance," a pun on 章 (a piece of writing).
-> The name is the whole thesis: writing that is *human in voice* and *true in substance*.
+> The whole thesis in one line: writing that is **human in voice** and **true in substance** —
+> easy to read, and easy to trust.
 
 ---
 
@@ -43,7 +43,7 @@ becomes less true in the name of sounding human.
 
 These override every stylistic instruction below. If a "humanizing" edit would violate one, don't make it.
 
-1. **Never alter a number, statistic, result, equation, unit, or citation key.** Not to round,
+1. **Never alter a number, statistic, result, equation, unit, or citation.** Not to round,
    not to "clean up," not to strengthen. Numbers and cites are load-bearing evidence, copy them verbatim.
 2. **Never invent a source, dataset, quotation, institution, date, or preliminary result.** If a
    claim lacks support, you *flag the gap* or *soften the claim*, you do not manufacture a citation
@@ -52,13 +52,13 @@ These override every stylistic instruction below. If a "humanizing" edit would v
    consistent with*; it does not *prove / demonstrate / guarantee* universal truths (Layer: [academic-discipline](references/academic-discipline.md)).
 4. **Preserve every information point.** If the original has five paragraphs, so does the rewrite.
    Nothing that carries a fact, number, judgment, action, or instruction is deleted without a flag.
-5. **This is not a disclosure-evasion tool.** VeriScribe helps a *human writer* whose own argument
+5. **This is not a disclosure-evasion tool.** Easywrite helps a *human writer* whose own argument
    and data trip a flawed filter, or whose AI-assisted draft reads mechanically. If a user wants to
    pass off unresearched machine output as their own scholarship, that is out of scope, say so plainly.
    Surface watermark/provenance limits when relevant ([detector-science](references/detector-science.md) §Watermarks).
 
 If the input is not writing to improve (it's code, logs, config, error messages, or a request for
-*fact-checking* rather than *style*) — stop and say so. VeriScribe is a prose skill.
+*fact-checking* rather than *style*) — stop and say so. Easywrite is a prose skill.
 
 ---
 
@@ -150,7 +150,7 @@ venue register too: ICLR/NeurIPS/ACL terse and results-forward; Nature/PNAS/Cell
 按学科规范. No sample ⇒ default to clean, precise, venue-appropriate prose. **Never inject opinion, humor, or
 first-person "personality" into a manuscript** — for scholarship, neutral-and-precise *is* the human voice.
 (For channeling a specific great science communicator's explanatory style, the adjacent `nuwa-skill`/`huashu-nuwa`
-can distill a voice; VeriScribe consumes such a voice sample, it doesn't manufacture personas itself.)
+can distill a voice; Easywrite consumes such a voice sample, it doesn't manufacture personas itself.)
 
 ### 8. Score & verify — two passes, then stop
 Score the rewrite on the rubric ([scoring-rubric](references/scoring-rubric.md)); anything below the gate goes back to step 3.
@@ -205,11 +205,11 @@ Use `in-place` (delete nothing, only soften) when the user demands the sentence 
 - Before/after examples (EN paper · 中文 摘要 · rebuttal · grant): [references/examples.md](references/examples.md)
 - Smoke-test cases: [evals/benchmark.md](evals/benchmark.md)
 
-VeriScribe can run from `SKILL.md` alone as a fallback; full power is `SKILL.md` + `references/` together.
+Easywrite can run from `SKILL.md` alone as a fallback; full power is `SKILL.md` + `references/` together.
 Load a reference lane only when the routed language/doc-type/goal calls for it.
 
 ---
 
-*VeriScribe synthesizes and credits five MIT-licensed skills — humanizer, academic-humanizer, humanize-prose,
+*Easywrite synthesizes and credits five MIT-licensed skills — humanizer, academic-humanizer, humanize-prose,
 stop-slop, shuorenhua — plus the adjacent nuwa-skill. See [CREDITS](README.md#credits--attribution). It does not
 replace them; it routes between their strengths and adds the bilingual + integrity spine.*

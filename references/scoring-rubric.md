@@ -17,7 +17,7 @@ matter for scholarship: **Fidelity** and **Evidence**. Rate each 1–10.
 
 1. **Fidelity and Evidence are hard gates.** If either scores below 8, the rewrite is **not shippable** regardless
    of style — go back to Protect/Anchor. A stylistically perfect draft that altered a number or over-claimed a
-   result is a failure, not a near-miss. This is the difference between VeriScribe and a generic humanizer.
+   result is a failure, not a near-miss. This is the difference between Easywrite and a generic humanizer.
 2. **Sum the other five (Directness, Rhythm, Trust, Authenticity, Density).** Below **35/50** → revise (step 3–6).
 3. **Then stop.** Once the two gates pass and the five clear ~40/50, ship. Further "polish" triggers the refinement
    trap (see [detector-science](detector-science.md)). Detector variance is ±10–20 points; chasing it past this point regresses.
