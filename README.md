@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.svg" alt="Easywrite — academic writing that reads human and stays evidence-true" width="100%">
+
 # Easywrite
 
 **The academic-writing skill that makes AI-assisted papers read *human* while staying *evidence-true* — in English and 中文.**
