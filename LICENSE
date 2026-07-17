@@ -19,15 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This project synthesizes ideas from the following MIT-licensed skills, with
-gratitude. Their copyright notices are preserved under NOTICE and their
-concepts are credited in README.md:
-
-  - humanizer            (c) blader            — https://github.com/blader/humanizer
-  - academic-humanizer   (c) AIScientists-Dev  — https://github.com/AIScientists-Dev/academic-humanizer
-  - humanize-prose       (c) celestialdust     — https://github.com/celestialdust/humanize-prose
-  - stop-slop            (c) Hardik Pandya      — https://github.com/hardikpandya/stop-slop
-  - shuorenhua (说人话)   (c) MrGeDiao          — https://github.com/MrGeDiao/shuorenhua
