@@ -1,0 +1,34 @@
+VeriScribe · 真章
+Copyright (c) 2026 VeriScribe contributors
+
+This product synthesizes concepts and, in places, condensed rule sets adapted from the
+following MIT-licensed open-source skills. Their original copyright and permission notices
+apply to the material derived from them, and are acknowledged here in gratitude:
+
+1. humanizer — Copyright (c) blader
+   https://github.com/blader/humanizer
+   MIT License.
+
+2. academic-humanizer — Copyright (c) AIScientists-Dev
+   https://github.com/AIScientists-Dev/academic-humanizer
+   MIT License.
+
+3. humanize-prose — Copyright (c) celestialdust
+   https://github.com/celestialdust/humanize-prose
+   MIT License.
+
+4. stop-slop — Copyright (c) Hardik Pandya
+   https://github.com/hardikpandya/stop-slop
+   MIT License.
+
+5. shuorenhua (说人话) — Copyright (c) MrGeDiao
+   https://github.com/MrGeDiao/shuorenhua
+   MIT License.
+
+Adjacent projects referenced but not derived from:
+   - nuwa-skill (女娲) — https://github.com/alchaincyf/nuwa-skill (MIT)
+   - taste-skill — https://github.com/leonxlnx/taste-skill (MIT)
+
+Each upstream project retains its own copyright. Nothing here revokes or supersedes the
+rights of the original authors. If you redistribute VeriScribe, retain this NOTICE and the
+attribution table in README.md.
