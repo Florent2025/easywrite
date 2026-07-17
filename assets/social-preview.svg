@@ -1,0 +1,74 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Easywrite — academic writing that reads human and stays evidence-true, EN and 中文">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09090f"/>
+      <stop offset="0.5" stop-color="#150e26"/>
+      <stop offset="1" stop-color="#09090f"/>
+    </linearGradient>
+    <linearGradient id="title" x1="300" y1="250" x2="980" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9b8ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#c0392b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .t  { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .cjk{ font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- full-bleed background (no rounded corners for a clean social card) -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <ellipse cx="640" cy="120" rx="560" ry="360" fill="url(#glow)"/>
+
+  <!-- faint baseline rules -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="140" y1="486" x2="1140" y2="486"/>
+    <line x1="140" y1="524" x2="1140" y2="524"/>
+    <line x1="140" y1="562" x2="1140" y2="562"/>
+  </g>
+
+  <!-- emblem: pen nib + verified check, centered up top -->
+  <g transform="translate(640,150)">
+    <g transform="translate(-33,-52)" fill="none" stroke="url(#accent)" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M6 86 L48 8 C54 -1 66 -1 72 8 L93 46 C99 56 93 68 82 70 L16 96 Z"/>
+      <line x1="41" y1="27" x2="73" y2="84"/>
+      <circle cx="57" cy="55" r="6.5" fill="url(#accent)" stroke="none"/>
+    </g>
+    <g transform="translate(40,26)">
+      <circle cx="0" cy="0" r="26" fill="#1db67a"/>
+      <path d="M-11 1 L-3.5 9.5 L12 -10.5" fill="none" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- wordmark, centered -->
+  <text x="640" y="330" text-anchor="middle" class="t" font-size="132" font-weight="800" letter-spacing="-4" fill="url(#title)">Easywrite</text>
+
+  <!-- subtitle, centered -->
+  <text x="640" y="392" text-anchor="middle" class="t" font-size="31" font-weight="500" fill="#e7e3f7">Academic writing that reads <tspan font-weight="700" fill="#ffffff">human</tspan> and stays <tspan font-weight="700" fill="#ffffff">evidence&#8209;true</tspan>.</text>
+
+  <!-- feature chips, centered row -->
+  <g class="t" font-size="21" font-weight="600">
+    <g transform="translate(316,436)">
+      <rect width="162" height="44" rx="22" fill="#ffffff" fill-opacity="0.06" stroke="#7c5cff" stroke-opacity="0.5"/>
+      <text x="81" y="29" text-anchor="middle" fill="#d9d2ff" class="cjk">EN + 中文</text>
+    </g>
+    <g transform="translate(494,436)">
+      <rect width="226" height="44" rx="22" fill="#ffffff" fill-opacity="0.06" stroke="#7c5cff" stroke-opacity="0.5"/>
+      <text x="113" y="29" text-anchor="middle" fill="#d9d2ff">claim &#8596; evidence</text>
+    </g>
+    <g transform="translate(736,436)">
+      <rect width="228" height="44" rx="22" fill="#ffffff" fill-opacity="0.06" stroke="#7c5cff" stroke-opacity="0.5"/>
+      <text x="114" y="29" text-anchor="middle" fill="#d9d2ff">detector science</text>
+    </g>
+  </g>
+
+  <!-- footer -->
+  <text x="640" y="588" text-anchor="middle" class="t" font-size="20" font-weight="600" fill="#8a83a8">agent skill · MIT · github.com/Florent2025/easywrite</text>
+</svg>

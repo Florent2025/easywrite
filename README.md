@@ -8,6 +8,7 @@
 
 *让 AI 辅助的学术写作既有人味、又守得住证据：去 AI 味 + 守证据 + 降 AIGC 检出率，中英双语。*
 
+[![validate](https://github.com/Florent2025/easywrite/actions/workflows/validate.yml/badge.svg)](https://github.com/Florent2025/easywrite/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 [![Agent Skill](https://img.shields.io/badge/type-agent%20skill-6e56cf.svg)](SKILL.md)
 [![EN + 中文](https://img.shields.io/badge/lang-EN%20%2B%20%E4%B8%AD%E6%96%87-c0392b.svg)](#)
