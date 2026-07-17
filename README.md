@@ -61,19 +61,19 @@ Once installed, just ask in natural language — the skill auto-triggers:
 
 **Option A — Skills CLI (any agent):**
 ```bash
-npx skills add <your-github-username>/veriscribe
+npx skills add YOUR_GH_USERNAME/veriscribe
 ```
 
 **Option B — Claude Code plugin marketplace:**
 ```bash
-/plugin marketplace add <your-github-username>/veriscribe
+/plugin marketplace add YOUR_GH_USERNAME/veriscribe
 /plugin install veriscribe
 ```
 
 **Option C — Manual (Claude Code / Codex / Cursor / OpenCode):**
 ```bash
 # Claude Code (user-global):
-git clone https://github.com/<your-github-username>/veriscribe.git ~/.claude/skills/veriscribe
+git clone https://github.com/YOUR_GH_USERNAME/veriscribe.git ~/.claude/skills/veriscribe
 # Codex:  ~/.codex/skills/veriscribe    Cursor: .cursor/skills/veriscribe    OpenCode: ~/.config/opencode/skills/veriscribe
 ```
 
